@@ -10,6 +10,7 @@ import Video from '../components/Video'
 
 
 
+
 const Home: NextPage = () => {
   return (
     <div className="h-screen bg-fixed bg-center bg-cover bg-hero"> 
@@ -24,13 +25,22 @@ const Home: NextPage = () => {
         <h4 className="text-center text-sm font-semibold text-gray-300">
           Construindo futuros seguros desde 2010
         </h4>
-        <div className=" sm:flex sm:justify-center max-w-5xl mx-auto text-center space-y-3 sm:space-y-0 mt-2 sm:gap-3">
-          <button className="bg-primary-blue hover:shadow-white/30 shadow-2xl ease-in duration-150 text-white text-sm rounded w-11/12 sm:w-2/6 px-4 py-3">
-            Fale comigo
+        <div className="block sm:flex sm:justify-center max-w-5xl mx-auto text-center space-y-3 sm:space-y-0 mt-2 sm:gap-3">
+
+          
+          <Link href="https://wa.me/5561983555195">
+          <button className="bg-primary-blue items-center justify-around hover:shadow-white/30 shadow-2xl ease-in duration-150 text-white text-sm rounded w-11/12 sm:w-2/6 px-4 py-3">
+            Fale comigo 
           </button>
+          </Link>
+         
+         
+          <Link href="/contato">
           <button className="bg-transparent border-2 text-sm hover:shadow-white/30 shadow-2xl ease-in duration-150  border-primary-blue text-primary-blue w-11/12 sm:w-2/6 px-4 py-3 font-semibol">
             Solicite uma cotação
           </button>
+          </Link>
+          
         </div>
         <h4 className="text-sm text-center mt-3 text-gray-400">
           Baixe gratuitamente o e-book{' '}

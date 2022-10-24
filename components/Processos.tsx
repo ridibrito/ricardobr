@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { BsArrowRightShort } from 'react-icons/bs'
 
 export default function Processos() {
@@ -42,7 +43,10 @@ export default function Processos() {
             ferrramentas e aplicativos para melhorar a experiência do cliente
           </p>
         </div>
+        <Link href="/contato">
         <button className='p-4 border-2 border-primary-blue rounded text-primary-blue w-full sm:w-60 px-6 flex items-center gap-3'>Solicite uma cotação<BsArrowRightShort /></button>
+          </Link>
+        
         </div>
         <div className="pl-50 -mr-10 sm:block hidden">
           <Image src="/ok.png" alt="mockup" width="1000" height="1000" />

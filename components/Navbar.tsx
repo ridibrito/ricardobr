@@ -43,9 +43,11 @@ export default function Navbar() {
               </Link>
             </ul>
           </nav>
+          <Link href="https://wa.me/5561983555195">
           <button className="hidden sm:flex text-primary-blue border border-primary-blue rounded px-4 py-2">
             Fale comigo
           </button>
+          </Link>
         </div>
         <div
           className="bg-gray-800 block sm:hidden top-0 z-10 absolute w-full h-screen text-gray-300 text-lg cursor-pointer transition-all"

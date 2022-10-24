@@ -4,7 +4,7 @@ export default function Parceiros() {
     return(
         <>
       
-        <div className='mt-20 '> 
+        <div className='mt-20 mx-3'> 
             <h4 className='text-gray-700 text-sm text-center'>Operadoras parceiras</h4>
             <h2 className='text-center text-xl font-semibold'>Conheça nossos principais fornecedores:</h2>
             <div className="">

@@ -4,7 +4,7 @@ export default function Clientes() {
     return(
         <>
       
-        <div className='my-20 '> 
+        <div className='my-20 mx-3'> 
             <h4 className='text-gray-700 text-sm text-center'>Alguns de nossos Clientes</h4>
             <h2 className='text-center text-xl font-semibold'>Conheça algumas empresas que acreditam em nosso trabalho:</h2>
             <div className="">
