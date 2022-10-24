@@ -20,12 +20,15 @@ export default function Navbar() {
     <>
       <div className="bg-transparent">
         <div className="flex items-center justify-between mx-auto p-3 max-w-7xl ">
+          <Link href="/">
           <Image
             src="/logon.png"
             alt="logo ricardo"
             width="200"
             height="50"
-          />
+            className='cursor-pointer'
+            />
+            </Link>
           <BiMenuAltRight
             onClick={handleOpenMenu}
             className="w-8 h-7 text-primary-blue sm:hidden cursor-pointer"

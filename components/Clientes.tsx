@@ -4,7 +4,7 @@ export default function Clientes() {
     return(
         <>
       
-        <div className='my-20 mx-3'> 
+        <div className='mt-20 mb-10 mx-3'> 
             <h4 className='text-gray-700 text-sm text-center'>Alguns de nossos Clientes</h4>
             <h2 className='text-center text-xl font-semibold'>Conheça algumas empresas que acreditam em nosso trabalho:</h2>
             <div className="">
@@ -44,10 +44,10 @@ export default function Clientes() {
             <div className="">
                 <Image src="/clientes/yeddaa.png" alt="amil" width="150" height="100"/>
             </div>
-            
-            
             </div>
-            <h2 className='text-center font-semibold'>Mais de 2.000 mil empresas fazem parte de nossa carteira de clientes, entre elas empresas MEI, LTDA, Individuais e S/A</h2>
+            <section className="bg-white dark:bg-gray-900">
+
+</section>
             </div>
         </div>
         

@@ -41,7 +41,7 @@ export default function Footer(){
                     <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-white">Suporte</h2>
                     <ul className="text-gray-500 dark:text-gray-400">
                     <li className="mb-4">
-                        <Link href="/site/contato" >
+                        <Link href="/contato" >
                             <a className="hover:underline text-sm ">Contato</a>
                         </Link>
                         </li>
