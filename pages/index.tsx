@@ -8,9 +8,11 @@ import Processos from '../components/Processos'
 import Produtos from '../components/Produtos'
 import Video from '../components/Video'
 
+
+
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-fixed bg-center bg-cover custom-img">
+    <div className="h-screen bg-fixed bg-center bg-cover bg-hero"> 
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]">
         <Navbar />
 

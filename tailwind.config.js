@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+       hero: "url('/capa1.png')"
+      },
       colors: {
         'primary-blue': '#007da8'
       },
