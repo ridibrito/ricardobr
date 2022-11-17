@@ -11,7 +11,6 @@ import Video from '../components/Video'
 
 
 
-
 const Home: NextPage = () => {
   return (
     <div className="h-screen bg-fixed bg-center bg-cover bg-hero"> 
@@ -43,16 +42,7 @@ const Home: NextPage = () => {
           </Link>
           
         </div>
-        <h4 className="text-sm text-center mt-3 text-gray-400">
-          Baixe gratuitamente o e-book{' '}
-          <Link href="/">
-            <a target="_blank">
-              <q className="underline cursor-pointer">
-                como contratar um plano de saúde
-              </q>
-            </a>
-          </Link>
-        </h4>
+       
         <div className='mt-16'>
           <Produtos />
         </div>
