@@ -10,7 +10,7 @@ export default function CtaFinal() {
               Solicite sua cotação ou fale comigo diretamente pelo WhatsApp
             </h2>
             </div>
-            <div className="flex items-center w-1/2 gap-4">
+            <div className="sm:flex items-center sm:w-1/2 gap-4">
               <Link href="https://wa.me/5561983555195">
                 <button className="bg-primary-blue items-center justify-around hover:shadow-white/30 shadow-2xl ease-in duration-150 text-white text-sm rounded w-11/12 sm:w-2/6 px-4 py-3">
                   Fale comigo
@@ -18,7 +18,7 @@ export default function CtaFinal() {
               </Link>
 
               <Link href="/contato">
-                <button className="bg-transparent border-2 text-sm hover:shadow-white/30 shadow-2xl ease-in duration-150  border-primary-blue text-primary-blue w-11/12 sm:w-2/6 px-4 py-3 font-semibol">
+                <button className="bg-transparent mt-2 sm:mt-0 border-2 text-sm hover:shadow-white/30 shadow-2xl ease-in duration-150  border-primary-blue text-primary-blue w-11/12 sm:w-2/6 px-4 py-3 font-semibol">
                   Solicite uma cotação
                 </button>
               </Link>
